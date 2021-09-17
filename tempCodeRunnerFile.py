@@ -1,3 +1,2 @@
-  elif 'open code' in query:
-            codePath = "C:\\Users\\Rakesh gupta\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
-            os.startfile(codePath)
+from gtts import gTTs
+from googletrans import Translator #pip install googletrans

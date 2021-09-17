@@ -5,8 +5,8 @@ import wikipedia #pip install wikipedia
 import webbrowser
 import time
 import PyPDF2
-# from gtts import gTTs
-# from googletrans import Translator pip install googletrans
+from googletrans import Translator
+from gtts import gTTS #pip install googletrans
 import subprocess
 import pywhatkit
 import pyautogui
@@ -91,7 +91,7 @@ def whatsapp():
         # hour=int(takeCommand())
         # speak('time in minutes')
         # min=int(takeCommand())
-        pywhatkit.sendwhatmsg("+916203770683","Hello from jarvis assiatant from rakesh sir",0, 44)  #22hr means 10 bajker and 28 means 28 minutes
+        pywhatkit.sendwhatmsg("+91**********","Hello from jarvis assiatant from rakesh sir",0, 44)  #22hr means 10 bajker and 28 means 28 minutes
         speak("ok sir , sending whatsapp message !")               
     elif 'rajeev119' in name:
         speak('tell me the message!')
@@ -111,7 +111,7 @@ def whatsapp():
         hour=int(takeCommand())
         speak('time in minutes')
         min=int(takeCommand())
-        pywhatkit.sendwhatmsg("+916204834527","Hello from GeeksforGeeks",0,49)  #22hr means 10 bajker and 28 means 28 minutes
+        pywhatkit.sendwhatmsg("+91*********","Hello from GeeksforGeeks",0,49)  #22hr means 10 bajker and 28 means 28 minutes
         speak("ok sir , sending whatsapp message !") 
     else:
         speak('tell me the number!')
@@ -452,6 +452,8 @@ if __name__ == "__main__":
             Temp()
         elif 'question' in query:
             science()
+        elif 'chromeautomate' in query:
+            chromeauto();
            
      
 

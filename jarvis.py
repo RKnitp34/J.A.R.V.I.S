@@ -253,9 +253,9 @@ def Temp():
     data=BeautifulSoup(r.text,"html.parser")
     temperature =data.find("div",class_="BNeawe").text
     speak(f" current {search} is  {temperature}")
-# ARPX63-ETE4TERRRP
+# ARPX63-ETE4TExxxx
 def wolfram(query):
-    api_id="ARPX63-ETE4TERRRP"
+    api_id="ARPX63-ETE4TExxxx"
     requester = wolframalpha.Client(api_id) # Instance of wolf ram alpha  # client class
     requested=requester.query(query) # Stores the response from 
     

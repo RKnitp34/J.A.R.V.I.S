@@ -1,5 +1,5 @@
 def wolfram(query):
-    api_id="ARPX63-ETE4TERRRP"
+    api_id="ARPX63-ETE4TEXXXX"
     requester = wolframalpha.Client(api_id) # Instance of wolf ram alpha  # client class
     requested=requester.query(query) # Stores the response from 
     

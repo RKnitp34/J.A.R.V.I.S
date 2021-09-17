@@ -49,7 +49,7 @@ def wishMe():
     else:
         speak("Good Evening!")  
 
-    speak("Hi, I'm jarvis 2.0 the Robot. Speed 1 terahertz, memory 1 zigabyte.How can i do you for  sir")       
+    speak("Hi, I'm jarvis 2.0 the Robot. Speed 1 terahertz, memory 1 zigabyte.How can i do you for  sir ")       
 
 def takeCommand():
     #It takes microphone input from the user and returns string output

@@ -1,1 +1,0 @@
-Hi, I'm jarvis 2.0 the Robot. Speed 1 terahertz, memory 1 zigabyte.How can i do you for  sir
